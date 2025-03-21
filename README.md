@@ -36,8 +36,6 @@ Since it converts the pdf to csv, extract and clean the transaction data from th
 - pypdf for PDF processing
 - pandas for converting pdf to csv, cleaning the data and analysing the cleaned transactions
 - CORS middleware for frontend-backend communication
-- python-multipart for handling file uploads
-- aiofiles for asynchronous file handling
 
 ## Installation and Setup
 
