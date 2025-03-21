@@ -8,7 +8,7 @@ Mpesa Wrapped is a web application that allows users to upload M-Pesa statements
 4. Most Frequent Transactions: Show the most recurring transactions (e.g., subscriptions, bills). 
 5. Top 3 Months by Total Transactions:&#x20;
 6. Amount Spent on Airtime and Bundles
-
+By displaying the Mpesa Wrapped results in a card format, inspired by Spotify Wrapped, with an auto-slideshow effect for seamless viewing.
 Since it converts the pdf to csv, extract and clean the transaction data from the csv and store it in a PostgreSQL database. The extracted data is also saved in JSON format for analysis using Pandas library.
 
 ## Features
