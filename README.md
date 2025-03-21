@@ -65,6 +65,7 @@ Ensure you have the following installed:
    ```
 4. Set up the PostgreSQL database:
    ```sh
+   sudo -u postgres psql
    createdb mpesa_wrapped
    ```
 5. Run the FastAPI server:
@@ -89,7 +90,7 @@ Ensure you have the following installed:
 
 ## API Endpoints
 
-- `POST /upload-pdf/` - Uploads a PDF, extracts transactions, and saves them to the database.
+- `POST /upload-pdf/` - Uploads a PDF, extracts, cleans transactions, and saves them to the database.
 
 ## Troubleshooting
 
@@ -101,9 +102,5 @@ Ensure you have the following installed:
 - Ian Kiprono Moses
 - Alex Maina
 - Donald Mbuvi
-
-## License
-
-This project is licensed under the MIT License.
 
 
