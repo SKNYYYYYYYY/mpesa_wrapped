@@ -51,8 +51,8 @@ Ensure you have the following installed:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-repo/mpesa-wrapped.git
-   cd mpesa-wrapped/backend
+   git clone https://github.com/SKNYYYYYYYY/mpesa_wrapped.git
+   cd mpesa_wrapped/backend
    ```
 2. Create a virtual environment and activate it:
    ```sh
