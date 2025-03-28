@@ -35,6 +35,7 @@ CSV to Database: https://youtu.be/fRSIJBhIhLA?si=72cPXSgljRAfMGTv
 
 
 db commons
+pgcli -U postgres -d wrapped_db -h localhost
 \c wrapped_db; 
 select count(*) from statement_table;
 delete   from statement_table;
